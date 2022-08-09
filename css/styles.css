@@ -22,18 +22,15 @@ footer {
   align-content: center;
   align-items: center;
   background-color: #8d620c; }
-
-.bi-instagram {
-  font-size: 18px;
-  color: white; }
-
-.bi-whatsapp {
-  font-size: 18px;
-  color: white; }
-
-.bi-envelope-fill {
-  font-size: 18px;
-  color: white; }
+  footer .bi-instagram {
+    font-size: 18px;
+    color: white; }
+  footer .bi-whatsapp {
+    font-size: 18px;
+    color: white; }
+  footer .bi-envelope-fill {
+    font-size: 18px;
+    color: white; }
 
 #grilla {
   display: grid;
@@ -48,7 +45,7 @@ footer {
   gap: 3rem; }
 
 .parrafo {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
   text-align: justify; }
 
@@ -63,7 +60,7 @@ h2 {
   font-size: 30px;
   text-decoration: underline;
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 .header {
   display: flex;
@@ -81,7 +78,7 @@ h2 {
   display: inline-block;
   margin: 1rem 2rem; }
   .header-menu li a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     color: #8d620c;
     font-size: 20px;
     text-decoration: none; }

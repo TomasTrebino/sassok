@@ -7,7 +7,7 @@
   .banner{
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-color: $letras-footer;
   
   }
 
@@ -27,21 +27,22 @@
     justify-content:space-evenly;
     align-content: center;
     align-items: center;
-    background-color: rgb(141, 98, 12);
-}
+    background-color:$color-dorado;
+    
+    .bi-instagram {
+      font-size: 18px;
+      color: $letras-footer;
+    }
+    
+    .bi-whatsapp {
+      font-size: 18px;
+      color:$letras-footer;
+    }
 
-.bi-instagram {
-    font-size: 18px;
-    color: white;
-  }
-  
-  .bi-whatsapp {
-    font-size: 18px;
-    color:white;
-  }
-  
-  .bi-envelope-fill{
-    font-size: 18px;
-    color:white;
-  }
+    .bi-envelope-fill{
+      font-size: 18px;
+      color:$letras-footer;
+    }
+
+}
 
