@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+  
+  }
+
+  .logo-detrebi {
+    width: 200px;
+    height: 150px;
+    }
+
+  body { 
+    background-color: rgb(204, 203, 203);    
+  }
+
+
+  footer {
+    display: flex;
+    height: 50px;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(141, 98, 12);
+}
+
+.bi-instagram {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .bi-whatsapp {
+    font-size: 18px;
+    color:white;
+  }
+  
+  .bi-envelope-fill{
+    font-size: 18px;
+    color:white;
+  }
+
