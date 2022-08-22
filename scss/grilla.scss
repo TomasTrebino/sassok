@@ -12,12 +12,6 @@
           gap: 3rem;
         }
 
-        .parrafo {
-            font-family: $tipo-letra;
-             font-size: 18px;
-             text-align: justify;
-              }
-
        .portada{
                 width: 100%;
                 height: 80%;
@@ -34,6 +28,30 @@
         padding: 20px;
         font-family: $tipo-letra;
         }
+
+        .parrafo {
+          font-family: $tipo-letra;
+           font-size: 18px;
+           text-align: justify;
+            }
+
+            @mixin estilo_parrafo ($tipo-letra, $tamanio_letra, $color_letra) 
+            {
+              font-family: $tipo-letra;
+              font-size: $tamanio_letra;
+              text-align: justify;
+              color: $color_letra;
+            }
+
+            .parrafo{
+              @include estilo_parrafo(verdana,17px ,black )
+            }
+            .parrafodos{
+              @include estilo_parrafo(verdana,17px ,rgb(112, 100, 10) )
+            }
+            .parrafotres {
+              @include estilo_parrafo(Trebuchet,20px , white )
+            }
     
         
     

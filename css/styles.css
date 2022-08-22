@@ -15,22 +15,24 @@
 body {
   background-color: #cccbcb; }
 
-footer {
+.fot, .fot--instagram, .fot--whatsapp, .fot--mail {
   display: flex;
   height: 50px;
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-  background-color: #8d620c; }
-  footer .bi-instagram {
-    font-size: 18px;
-    color: white; }
-  footer .bi-whatsapp {
-    font-size: 18px;
-    color: white; }
-  footer .bi-envelope-fill {
-    font-size: 18px;
-    color: white; }
+  background-color: #8d620c;
+  font-size: 18px;
+  font-size: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.fot--instagram {
+  color: white; }
+
+.fot--whatsapp {
+  color: black; }
+
+.fot--mail {
+  color: pink; }
 
 #grilla {
   display: grid;
@@ -44,11 +46,6 @@ footer {
   align-items: center;
   gap: 3rem; }
 
-.parrafo {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
-  text-align: justify; }
-
 .portada {
   width: 100%;
   height: 80%;
@@ -61,6 +58,29 @@ h2 {
   text-decoration: underline;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+.parrafo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  text-align: justify; }
+
+.parrafo {
+  font-family: verdana;
+  font-size: 17px;
+  text-align: justify;
+  color: black; }
+
+.parrafodos {
+  font-family: verdana;
+  font-size: 17px;
+  text-align: justify;
+  color: #70640a; }
+
+.parrafotres {
+  font-family: Trebuchet;
+  font-size: 20px;
+  text-align: justify;
+  color: white; }
 
 .header {
   display: flex;
